@@ -2,6 +2,7 @@ package org.owasp.webgoat.lessons;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.owasp.webgoat.i18n.LabelProvider;
 import org.owasp.webgoat.session.Screen;
 
 import java.util.List;
@@ -219,4 +220,5 @@ public abstract class AbstractLesson extends Screen implements Comparable<Object
     }
 
     public abstract String getId();
+
 }
